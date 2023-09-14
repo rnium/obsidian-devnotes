@@ -1,0 +1,1 @@
+It's the heart of a django project
