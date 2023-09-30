@@ -43,7 +43,7 @@ Description=uWSGI Emperor service
 
 [Service]
 ExecStartPre=/bin/bash -c 'mkdir -p /run/uwsgi'
-ExecStart=/usr/local/bin/uwsgi --emperor /etc/uwsgi/sites
+ExecStart=/usr/local/bin/uwsgi --emperor /etc/uwsgi/vessals
 Restart=always
 KillSignal=SIGQUIT
 Type=notify
