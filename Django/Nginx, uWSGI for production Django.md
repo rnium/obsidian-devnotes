@@ -3,6 +3,7 @@
 - add `uwsgi.params` in  `/etc/uwsgi/` directory
 - `.ini` files should be in the `/etc/uwsgi/vessals` directory
 - modify directive values as per requirement
+- For using posgresql for django app, refer to [[Using PostgreSQL in Linux server for Django]]
 
 ## 0. `setup.sh`
 ```
